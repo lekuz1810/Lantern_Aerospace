@@ -1,0 +1,150 @@
+html,
+body {
+    margin: 0;
+    padding: 0
+}
+
+.total_container1 {
+    background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./all-images-and-icons/bg3.jpg);
+    /* background-color: #ffffff; */
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    width: 100%;
+}
+@media (min-width: 750px){
+    .total_container1 {
+        height: 95vh;
+    }
+}
+.navbar-styles {
+    width: 100%;
+    height: 70px;
+    background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./all-images-and-icons/navbar_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: 1;
+}
+
+@media (min-width: 1000px){
+    .navbar-styles {
+        height: 60px;
+    }
+}
+
+.ancher_element {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    color: #2caece !important;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.ancher_element:hover{
+    color: white !important;
+}
+.active{
+    color: #ffffff !important;
+}
+.active_dropdown{
+    background-color: #327586;
+    color: white;
+}
+.lantern_logo {
+    width: 40px;
+    height: 40px;
+}
+@media (min-width: 1000px){
+
+    .lantern_logo {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+    }
+
+}
+.logo_name {
+    width: 100px;
+    height: 45px;
+}
+@media (min-width: 1000px){
+
+    .logo_name {
+        width: 120px;
+        height: 45px;
+    }
+
+}
+.content_container{
+    padding: 20px;
+}
+.heading1{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #3595ac;
+    border-radius: 7px;
+    margin-top: 20px;
+    height: 270px;
+}
+.contact-us-details{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+.subheading{
+    color: #3595ac;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.span_heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #010101;
+}
+.about-icons-card{
+    width: 100%;
+    margin-top: 20px;
+}
+.About-icons{
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+    border-radius: 7px;
+}
+.icon_container{
+    text-align: center;
+    padding: 10px;
+}
+.card-icons{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+.card-icons-heading2{
+    color: #000000;
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+.copyrights_para{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin:0;
+    background-color: #3595ac;
+    padding: 10px;
+}
